@@ -1,0 +1,35 @@
+[core]
+#核心配置
+#这个反向http-post端口
+serverPort = "8080"
+#机器人的服务器端口
+botPort = "5700"
+#这条没用 现在不想实现
+enableCq = "true"
+[sql]
+#数据库的配置
+#没实现
+sqlAddr="127.0.0.1"
+sqlPort="3306"
+sqlUser="root"
+sqlPwd="123456"
+
+[user]
+#qq机器人的用户 一一对应
+#例如:
+##qqNumber=[“1123456”,“22334455”]
+##qqName=[“nihao”,“niyehao”]
+##qqRelativePath=[“/nihao”,"/niyehao"]# / 后面的随便取 反正一一对应
+##用户 nihao 的qq号是 1123456 RelativePath 是 /nihao
+##用户 niyehao 的qq号是 22334455 RelativePath 是 /niyehao
+qqNumber=[
+    
+]
+qqName=[
+    
+]
+qqRelativePath=[
+   
+]
+#一次触发的群列表 可以应用的群 不设置就不会有定时群发消息
+onceGroupList=[]

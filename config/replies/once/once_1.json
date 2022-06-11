@@ -1,0 +1,9 @@
+{
+  "enable": 123,
+  "emitTime": "22:00:00",
+
+  "reply": {
+    "reply_msg": "晚上10点了"
+  }
+
+}

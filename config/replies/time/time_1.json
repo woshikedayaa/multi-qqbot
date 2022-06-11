@@ -1,0 +1,12 @@
+{
+  "enable": 123,
+  "emitStartTime": "08:00:00",
+  "emitEndTime": "12:00:00",
+
+  "reply": [
+    {
+      "emit_msg": "上午好",
+      "reply_msg": "上午好啊!"
+    }
+  ]
+}

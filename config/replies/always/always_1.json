@@ -1,0 +1,10 @@
+{
+  "enable": 123,
+
+  "reply": [
+    {
+      "emit_msg": "你好",
+      "reply_msg": "你好！"
+    }
+  ]
+}
